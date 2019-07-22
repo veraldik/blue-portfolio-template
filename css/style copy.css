@@ -1,0 +1,174 @@
+/*SCREEN has a max width of 980 pixels then implement*/
+@media screen and (max-width: 980px) {
+	section.skills {
+		padding: 0 3% 1% 3%;
+		border-bottom:.1em dashed #ffffff;
+		line-height:1.5em;
+	}
+	
+	.distanceNarrow {
+		margin-bottom:5%;
+	}
+	
+	li.projects {
+		float:left;
+		width:49.25%;
+		padding-top:5%;
+		border-right:0.1em dashed #ffffff;
+		border-bottom:0.1em dashed #ffffff;
+	}
+	
+	li.projects img {
+		width:75%;
+		margin-bottom:1%;
+	}
+} 
+
+/*SCREEN has a min width of 980 pixels then implement*/
+@media screen and (min-width: 981px) {
+
+	section.skills {
+		width:15%;
+		float:left;
+		padding:0.5% 6% 3% 3%;
+		line-height:2em;
+		border-left:0.1em dashed #ffffff;
+	}
+	
+	li.projects {
+		float:left;
+		width:24.5%;
+		padding:3% 0 1% 0;
+		border-left:0.1em dashed #ffffff;
+		border-bottom:0.1em dashed #ffffff;
+	}
+	
+	li.projects img {
+		width:75%;}
+		
+	li.distanceWide {
+		margin-bottom:2.5%;
+	}
+} 
+
+/*COMMON*/
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', serif;
+	background-color:#b9d8de;
+	color:#32666f;
+}
+
+header {
+	background-color:#ffffff;
+	padding:1.5% 0 1.5% 3%;
+}
+
+ul#navigation {
+	margin:0;
+	padding:0;
+	margin-top:1.5%
+}
+
+li.navItem {
+	list-style:none;
+}
+
+li.navItem a {
+	color:#5ba5b3;
+	text-decoration:none;
+	font-size:.9em;
+}
+
+li.navItem a:hover {
+	color:#33c9e4;
+	text-decoration:underline;
+}
+
+a#selected {
+	color:#33c9e4;
+	text-decoration:underline;
+}
+
+footer {
+	background-color:#ffffff;
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+}
+
+footer p {
+	color:#666666;
+	font-size:0.7em;
+	margin-left:3%;
+}
+
+/*ABOUT*/
+
+section#intro{
+	padding:0 3% 1% 3%;
+	border-bottom:0.1em dashed #ffffff;
+}
+
+section#intro h1 {
+	font-size:3em;
+}
+
+section#intro p {
+	font-size: 2em;
+}
+
+/*PORTFOLIO*/
+
+ul#portfolio {
+	margin:0;
+	padding:0;
+}
+
+li.projects {
+	list-style-type:none;
+	text-align:center;
+}
+
+li.projects a.pname {
+	color:#32666f;
+	text-decoration:none;
+}
+
+li.projects a.pname:hover {
+	color:#cccccc;
+	text-decoration:none;
+}
+
+/*PROJECT A*/
+
+
+div#projectArea {
+	text-align:center;
+	padding:4% 0;
+}
+
+div#projectArea p {
+	margin:2% 20% 2% 20%;
+	line-height:2em;
+}
+
+img#desktop {
+	width:65%;
+}
+
+a.next {
+	font-size: 1em;
+	text-decoration:none;
+	color:red;
+}
+
+a.next:hover {
+	font-size: 1em;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+
